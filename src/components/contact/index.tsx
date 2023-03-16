@@ -24,7 +24,7 @@ export const Contact: React.FC<ContactProps> = props => (
               </Row>
               <Row>
                 <Col md={6}>
-                    <img src='img/portfolioimg.jpeg' alt='Contact'></img>  
+                    <img src='https://ik.imagekit.io/jfpi8d5c5/portfolio/portfolioimg.jpeg?updatedAt=1678999918555' alt='Contact' height={'400px'}></img>  
                 </Col>
                 <Col md={6}>
                     {props.contact &&

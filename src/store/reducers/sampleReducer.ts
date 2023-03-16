@@ -26,7 +26,7 @@ export const initState: Portfolio = {
             'My creativity and eye for design along with my experience in Real Estate and Administrative Purchasing has given me the problem solving, attention to detail and leadership skills I pride myself on.',
             'Looking forward to making a significant contribution to a forward thinking tech company.',
         ],
-        resumeLink: {label: 'My Full Resume', url: 'img/myresume.pdf'},
+        resumeLink: {label: 'My Full Resume', url: 'https://ik.imagekit.io/jfpi8d5c5/portfolio/myresume.pdf?updatedAt=1678999907597'},
         jobsHeadline: 'Employment',
         jobs: [
             {
@@ -84,7 +84,7 @@ export const initState: Portfolio = {
                     techStack: 'JavaScript, TypeScript, HTML5, CSS3, Express.js, Node.js, Mongo db, Mongoose',
                     summary:
                         'Snapshot is a React + Typescript frontend application where the user can upload, edit, and share photos with friends.',
-                    image: 'gradient.jpeg',
+                    image: 'https://ik.imagekit.io/jfpi8d5c5/portfolio/gradient.jpeg?updatedAt=1678999489433',
                     links: [
                         {
                             label: 'Live site',
@@ -104,7 +104,7 @@ export const initState: Portfolio = {
                     techStack: 'React, Django, Python, JavaScript, CSS,',
                     summary:
                         'The Kids Art App is a React frontend application where the user can store an image and description of their childs artwork to display to friends and family.',
-                    image: 'kids-art-app.png',
+                    image: 'https://ik.imagekit.io/jfpi8d5c5/portfolio/kids-art-app.png?updatedAt=1678999857598',
                     links: [
                         {
                             label: 'Live site',
@@ -124,7 +124,7 @@ export const initState: Portfolio = {
                     techStack: 'JavaScript, React, SASS, HTML5, CSS3, Express.js, Node.js, Mongo db, Mongoose',
                     summary:
                         'MyEvents is a frontend React application that allows users to view, create, delete, and update events. The app features user authentication, ensuring that only authorized users can access and manipulate event information.  Additionally, the application integrates with a backend service to securely store and retrieve event data.',
-                    image: 'myevents.png',
+                    image: 'https://ik.imagekit.io/jfpi8d5c5/portfolio/myevents.png?updatedAt=1678999870720',
                     links: [
                         {
                             label: 'Live site',
@@ -144,7 +144,7 @@ export const initState: Portfolio = {
                     techStack: 'JavaScript, HTML5, CSS3, Express.js, Node.js, Mongo db, Mongoose',
                     summary:
                         'Users can contribute and read recipes and the recipes of others. This app is especially useful for those with food allergies as the top allergens come up highlighted throughout the app.',
-                    image: 'Allergy-app.png',
+                    image: 'https://ik.imagekit.io/jfpi8d5c5/portfolio/Allergy-app.png?updatedAt=1678999929493',
                     links: [
                         {
                             label: 'Live site',

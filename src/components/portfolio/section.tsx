@@ -17,7 +17,7 @@ export const ProjectSet: React.FC<Section> = props => {
 
     const images: object[] = []
     const makePath = (image: string) => {
-        return image ? 'img/' + image : sampleImage
+        return image ? image : sampleImage; // image ? 'img/' + image : sampleImage
     }
 
     return (
