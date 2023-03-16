@@ -28,7 +28,7 @@ export const Intro: React.FC<IntroProps> = props => (
         <div style={{objectFit: 'cover', position:'absolute', top:'0', left:'0', height:'100%'}}>
             <div style={{position:'relative', overflow:'hidden', textAlign:'center', display:'flex',
         alignItems:'center', justifyContent:'center', height:'100%'}}>
-                <video playsInline={true} autoPlay={true} muted loop poster="cake.jpg" style={{width:'100%'}}>
+                <video playsInline={true} autoPlay={true} muted loop style={{width:'100%'}}>
                         <source src="https://ik.imagekit.io/jfpi8d5c5/portfolio/Media2.mp4?updatedAt=1679000245129" type="video/mp4" />
                             Your browser does not support the video tag.
                 </video>
