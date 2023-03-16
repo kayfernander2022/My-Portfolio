@@ -22,6 +22,7 @@ import 'jquery.easing'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import rootReducer from './store/reducers/rootReducer'
+import Contact from './components/contact'
 const store = createStore(rootReducer, {})
 
 export const App = () => {
@@ -42,6 +43,7 @@ export const App = () => {
                 <Intro />
                 <Resume />
                 <Portfolio />
+                <Contact />
                 <Footer />
                 <BackToTop />
                 <Preloader />

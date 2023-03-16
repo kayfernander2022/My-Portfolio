@@ -45,12 +45,13 @@ export const TopNav: React.FC<Portfolio> = props => {
             role="navigation"
             variant={variant}
         >
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             {!!props.meta.showRepoLink && (
                 <Navbar.Brand
                     href="https://github.com/kayfernander2022"
                     target="_blank"
                     className="ml-3 mt-2"
+                    style={{marginLeft:'20px'}}
                 >
                     <FontAwesomeIcon icon={faGithub} />
                 </Navbar.Brand>

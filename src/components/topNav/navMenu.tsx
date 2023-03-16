@@ -5,7 +5,7 @@ import { smoothScroll } from '../../utilities'
 
 export const navMenu: React.FC<Portfolio> = props => {
     return (
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
             <Nav className="ml-auto" defaultActiveKey="#home">
                 <Nav.Link
                     href="#home"
@@ -28,6 +28,12 @@ export const navMenu: React.FC<Portfolio> = props => {
                         {section.menu}
                     </Nav.Link>
                 ))}
+                <Nav.Link
+                    href="#contact"
+                    onClick={(e: any) => smoothScroll(e, 'contact')}
+                >
+                    {props.menu.contact}
+                </Nav.Link>
             </Nav>
         </Navbar.Collapse>
     )

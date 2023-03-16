@@ -5,7 +5,7 @@ import { RootState } from '../../store/myTypes'
 import { Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
-// import Typed from 'react-typed'
+import Typed from '../typed/index';
 import { smoothScroll } from '../../utilities'
 import './stars.scss'
 import './style.scss'
@@ -35,7 +35,13 @@ export const Intro: React.FC<IntroProps> = props => (
                     <p className="intro-subtitle">
                         <span className="text-slider-items"></span>
                         <strong className="text-slider">
-                           
+                        <Typed
+                            strings={props.typed}
+                            typeSpeed={80}
+                            backDelay={1100}
+                            backSpeed={30}
+                            loop
+                            />
                         </strong>
                     </p>
                     <p className="pt-3">

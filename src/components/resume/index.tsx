@@ -9,6 +9,9 @@ import Tool from '../../models/tool'
 import Job from '../../models/job'
 
 export interface ResumeProps {
+    headline: string
+    summary: string[]
+    resumeLink: { label: string; url: string }
     toolsHeadline: string
     tools: Tool[]
     jobsHeadline: string
@@ -20,8 +23,12 @@ export const Resume: React.FC<ResumeProps> = props => (
         <Row id="about">
             <Col className="shadow-sm p-5 bg-light">
                 <Row>
+                    <Col>
+                        <Intro {...props}/>
+                    </Col>
+                </Row>
+                <Row>
                     <Col md={6}>
-                        <Intro/>
                         <List
                             headline={props.toolsHeadline}
                             list={props.tools}

@@ -12,6 +12,7 @@ export default interface Portfolio {
     menu: {
         home: string
         about: string
+        contact: string
     }
     intro: {
         headline: string
@@ -20,12 +21,18 @@ export default interface Portfolio {
     resume: {
         headline: string
         summary: string[]
+        resumeLink: { label: string; url: string }
         jobsHeadline: string
         jobs: Job[]
         toolsHeadline: string
         tools: Tool[]
     }
     sections: Section[]
+    contact: {
+        icon:string, 
+        label: string, 
+        link: string
+    }[]
     footer: {
         social: Social[]
         footerMessage: string

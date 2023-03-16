@@ -11,6 +11,7 @@ export const ProjectCard: React.FC<Project> = props => {
             <Card.Img variant="top" src={imagePath} alt={props.title} />
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
+                <Card.Text><b>Tech Stack:</b> {props.techStack}</Card.Text>
                 <Card.Text>{props.summary}</Card.Text>
                 {props.links &&
                     props.links.map((link, i) => (
