@@ -81,7 +81,7 @@ export const initState: Portfolio = {
                 {
                     id: 'section-1-project-1',
                     title: 'Snapshot',
-                    techStack: '',
+                    techStack: 'JavaScript, TypeScript, HTML5, CSS3, Express.js, Node.js, Mongo db, Mongoose',
                     summary:
                         'Snapshot is a React + Typescript frontend application where the user can upload, edit, and share photos with friends.',
                     image: 'gradient.jpeg',
@@ -101,7 +101,7 @@ export const initState: Portfolio = {
                 {
                     id: 'section-1-project-2',
                     title: 'Kids Art App',
-                    techStack: '',
+                    techStack: 'React, Django, Python, JavaScript, CSS,',
                     summary:
                         'The Kids Art App is a React frontend application where the user can store an image and description of their childs artwork to display to friends and family.',
                     image: 'kids-art-app.png',
@@ -120,10 +120,10 @@ export const initState: Portfolio = {
                 },
                 {
                     id: 'section-1-project-3',
-                    title: 'My Events',
-                    techStack: '',
+                    title: 'My Events | Full-stack application',
+                    techStack: 'JavaScript, React, SASS, HTML5, CSS3, Express.js, Node.js, Mongo db, Mongoose',
                     summary:
-                        'MyEvents” is a frontend React application that allows users to view, create, delete, and update events. The app features user authentication, ensuring that only authorized users can access and manipulate event information.  Additionally, the application integrates with a backend service to securely store and retrieve event data.',
+                        'MyEvents is a frontend React application that allows users to view, create, delete, and update events. The app features user authentication, ensuring that only authorized users can access and manipulate event information.  Additionally, the application integrates with a backend service to securely store and retrieve event data.',
                     image: 'myevents.png',
                     links: [
                         {
