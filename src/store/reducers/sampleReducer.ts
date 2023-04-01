@@ -84,7 +84,7 @@ export const initState: Portfolio = {
                     techStack: 'JavaScript, TypeScript, HTML5, CSS3, Express.js, Node.js, Mongo db, Mongoose',
                     summary:
                         'Snapshot is a React + Typescript frontend application where the user can upload, edit, and share photos with friends.',
-                    image: 'https://ik.imagekit.io/jfpi8d5c5/portfolio/gradient.jpeg?updatedAt=1678999489433',
+                    image: 'https://ik.imagekit.io/jfpi8d5c5/capstone/snapshot.png?updatedAt=1680307838550',
                     links: [
                         {
                             label: 'Live site',
