@@ -1,10 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-    faGithub,
-    faTumblr,
-    faLinkedin,
-} from '@fortawesome/free-brands-svg-icons'
+    faGithub,faTumblr,faLinkedin,} from '@fortawesome/free-brands-svg-icons'
 import Social from './../../models/social'
 
 export const Socials: React.FC<{ list: Social[] }> = props => {
